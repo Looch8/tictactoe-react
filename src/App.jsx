@@ -7,9 +7,11 @@ function Square() {
 		setValue("X");
 	}
 	return (
-		<button className="square" onClick={handleClick}>
-			{value}
-		</button>
+		<>
+			<button className="square" onClick={handleClick}>
+				{value}
+			</button>
+		</>
 	);
 }
 
